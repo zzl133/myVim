@@ -1,8 +1,8 @@
-*my vim setting!!!
+my vim setting!!!
 
-***use Vundle plugin mangerment
+use Vundle plugin mangerment
 
-***use some plugin
+use some plugin
 
 * nerdtree 生成目录树
 * tagbar   生成函数变量列表
