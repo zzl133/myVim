@@ -11,7 +11,8 @@ use some plugin
 * neocomplcache.vim 关键字补全、路径补全、tag补全
 
 
-> PluginList
+> :PluginList
+> :PluginInstall
 
 -------
 
