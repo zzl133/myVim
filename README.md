@@ -18,7 +18,7 @@ use some plugin
 
 > git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-open vim and enter the following command in command mode;
+open vim and enter the following command in command mode:
 
 > :PluginList
 
@@ -30,6 +30,6 @@ open vim and enter the following command in command mode;
 
 ###vimrc
 
-> copy .vimrc ~/.vimrc
+> cp .vimrc ~/.vimrc
 
 
