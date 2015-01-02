@@ -50,14 +50,16 @@ Plugin 'git@github.com:SirVer/ultisnips.git'
 Plugin 'git@github.com:Raimondi/delimitMate.git'
 
 "supertab 让tab键可以飞起来。
-Plugin 'git@github.com:ervandew/supertab.git'
+"Plugin 'git@github.com:ervandew/supertab.git'
 
 "neocomplcache.vim 关键字补全、文件路径补全、tag补全等等，各种，非常好用，速度超快。
-Plugin 'git@github.com:Shougo/neocomplcache.vim.git'
+"Plugin 'git@github.com:Shougo/neocomplcache.vim.git'
 
 "TagHighlight 根据生成的Tag文件，高亮类、变量、函数和关键字。
 Plugin 'git@github.com:magic-dot-files/TagHighlight.git'
 
+"YouCompleteMe
+Plugin 'git@github.com:Valloric/YouCompleteMe.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -97,11 +99,11 @@ let g:UltiSnipsEditSplit="vertical"
 "}
 
 "supertab Settings{
-	let g:SuperTabDefaultCompletionType="context"
+	"let g:SuperTabDefaultCompletionType="context"
 "}
 
 "neocomplcache Settings{
-	let g:neocomplcache_enable_at_startup = 1
+	"let g:neocomplcache_enable_at_startup = 1
 "}
 
 "delimitMate Settings{
@@ -111,3 +113,8 @@ let g:UltiSnipsEditSplit="vertical"
 	au FileType vim,html let b:delimitMate_matchpairs = "(:),[:],{:},<:>"
 "}
 
+"YouComplete Settings{
+	let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'	
+	let g:ycm_confirm_extra_conf=0
+	let g:ycm_collect_identifiers_from_tag_files = 1
+"}
